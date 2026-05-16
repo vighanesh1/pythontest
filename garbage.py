@@ -1,0 +1,19 @@
+import random
+def randomint():
+    a = random.randint(0,1000000000000000000000000000000000000000)
+    b = random.randint(0,1000000000000000000000000000000000000000)
+    return a,b
+a, b = randomint()
+if (a==b) :
+    print ("a is equal to b")
+else : 
+    for i in  range (10000000000000000000000000000000000000000000000000000000000000000000000000000000000):
+
+        a,b = randomint()
+        print (f"{a} and \t {b}")
+        if (a==b):
+            print (f"Match found at iteration {i}" )
+            break
+            
+
+    
